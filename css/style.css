@@ -63,7 +63,8 @@ button {
   float: left;
   width: 20%;
 }
-table {
-  display: flex;
-  justify-content: space-around;
+.col_passeggero:after {
+  content: "";
+  display: table;
+  clear: both;
 }
