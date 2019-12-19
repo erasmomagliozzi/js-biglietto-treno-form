@@ -19,6 +19,7 @@ body {
 .calc_prezzo {
   width: 100%;
   background-color: white;
+  border-radius: 20px;
 }
 .form {
   display: flex;
@@ -31,4 +32,24 @@ body {
 label {
   display: block;
   color: #c4193b;
+  margin: 10px;
+}
+input {
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: #c4193b;
+}
+.row_button {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: lightgrey;
+  color: #c4193b;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 10px;
 }
