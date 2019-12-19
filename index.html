@@ -14,7 +14,7 @@
         <div class="row form">
           <div class="col price">
             <!-- NOME E COGNOME -->
-            <label for="nome">Nome e Cognome</label>
+            <label id="nome_passeggero"for="nome">Nome e Cognome</label>
             <input type="text" placeholder="Nome e cognome"name="nome e cognome" value="">
           </div>
           <div class="col price">
@@ -25,7 +25,12 @@
           <div class="col price">
             <!-- FASCIA D'ETA -->
             <label for="fascia">Fascia d'età</label>
-            <input type="" name="fascia" value="">
+            <select class="" name="fascia d'età">
+              <option value=""></option>
+              <option value="maggiorenne">Maggiorenne</option>
+              <option value="minorenne">Minorenne</option>
+              <option value="over 65">Over 65</option>
+            </select>
           </div>
         </div>
         <div class="row row_button">
@@ -37,12 +42,50 @@
           </div>
         </div>
       </div>
-    </div>
+
+
+     <h1>IL TUO BIGLIETTO</h1>
       <div class="tuo_biglietto">
+        <h2>DETTAGLIO PASSEGGERI</h2>
+        <div class="col_passeggero">
+          <h3>NOME PASSEGGERO</h3>
+          <p></p>
+        </div>
+        <div class="col_dettaglio_biglietto">
+          <table>
+            <td>
+              <th>Offerta</th>
+              <tbody>
+
+              </tbody>
+            </td>
+            <td>
+              <th>Carrozza</th>
+              <tbody>
+
+              </tbody>
+            </td>
+            <td>
+              <th>Codice CP</th>
+              <tbody>
+
+              </tbody>
+            </td>
+            <td>
+              <th>Costo Biglietto</th>
+              <tbody>
+
+              </tbody>
+            </td>
+          </table>
+
+        </div>
 
       </div>
-
     </div>
+
+
+
 
   <script src="js/biglietto-treno.js" charset="utf-8"></script>
   </body>
