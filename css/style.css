@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #c4193b;
+  font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.wrapper h1 {
+  color: white;
+  margin: 5px;
+}
+.calc_prezzo {
+  width: 100%;
+  background-color: white;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.col.price {
+  margin: 20px;
+}
+label {
+  display: block;
+  color: #c4193b;
+}
