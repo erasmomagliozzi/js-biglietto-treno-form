@@ -68,3 +68,6 @@ button {
   display: table;
   clear: both;
 }
+.col_dettaglio_biglietto table thead tr th {
+  padding: 10px;
+}
